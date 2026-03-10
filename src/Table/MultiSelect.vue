@@ -3,7 +3,7 @@
     type="checkbox" 
     v-model="status" 
     @change="toggle" 
-    style="margin: 0; vertical-align: middle; transform: scale(1.5); cursor: pointer;" 
+    style="margin: 0; vertical-align: middle; transform: scale(1.3); cursor: pointer;" 
     name="MultiSelect"
   >
 </template>

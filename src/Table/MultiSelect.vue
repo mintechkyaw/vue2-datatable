@@ -1,5 +1,11 @@
 <template>
-  <input type="checkbox" v-model="status" @change="toggle" style="margin: 0; vertical-align: middle" name="MultiSelect">
+  <input 
+    type="checkbox" 
+    v-model="status" 
+    @change="toggle" 
+    style="margin: 0; vertical-align: middle; transform: scale(1.5); cursor: pointer;" 
+    name="MultiSelect"
+  >
 </template>
 <script>
 import replaceWith from '../_utils/replaceWith'
